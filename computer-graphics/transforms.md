@@ -99,3 +99,30 @@ a polygon is transformed by the matrix.
 
 ### Homogeneous Coordinates
 ![Homogeneous Coordinates](images/homogeneous-coordinates.jpg)
+- For a point `(x,y)` there exists a homogeneous point `(xt,yt,t)` where t is an
+  arbitrary number.
+- It is possible to transform functions such as `f(x,y)` into the form
+  `f(x/t,y/t)` without disturbing the degree of the curve.
+- The figure shows a triangle on the `t=1` plane, and a similar triangle on
+  a more distant plane.
+- The t- or z-coordinate of the plane is immaterial because the x- and
+  y-coordinates are eventually scaled by `t`.
+- To keep things simple, it's a good idea for `t=1`, so that the point `(x,y)`
+  has homogeneous coordinates `(x,y,1)` making scaling superfluous.
+- Using 3D homogeneous coordinates instead of 2D Cartesian coordinates, we must
+  attach 1 to every `(x,y)` pair.
+- When a point `(x,y,1)` is transformed, it emerges as `(x',y',1)` and we
+  discard the 1, which resolves the problem of creating a translation transform.
+Given the homogeneous point `(x,y,1)`:
+```
+[x'] [a b e][x]
+[y']=[c d f][y]
+[1 ] [0 0 1][1]
+```
+this expands to:
+```
+x'=ax+by+e
+y'=cx+dy+f
+1=1
+```
+and solves the problem of adding a constant.
