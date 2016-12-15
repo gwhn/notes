@@ -20,7 +20,9 @@ z'=gx+hy+jz+m
 ## 2D Transforms
 
 ### Translation
+
 ![2D Translation](images/2d-translation.jpg)
+
 - Change a shape's coordinates => change its geometry.
 - If `P(x,y)` is a vertex on a shape, when we apply `x'=x+3` we create a new
   point `P'(x',y)` 3 units to the right.
@@ -28,7 +30,9 @@ z'=gx+hy+jz+m
   1 unit vertically.
 
 ### Scaling
+
 ![2D Scaling](images/2d-scaling.jpg)
+
 - Shape scaling is effected by multiplying coordinates.
 ```
 x'=2x
@@ -39,7 +43,9 @@ y'=1.5y
 - **Note** that scaling is relative to the origin.
 
 ### Reflection
+
 ![2D Reflection](images/2d-reflection.jpg)
+
 - Reversing the sign of the x-coordinate reflects a shape relative to the
   y-axis.
 ```
@@ -56,29 +62,43 @@ y'=-y
 ## Matrices
 
 ### Multiplication
+
 ![matrix multiplication step 1](images/matrix-multiplication-step-1.jpg)
+
 `Aa+Bc` is the product of the top row of the first matrix by the left column of
 the second matrix.
+
 ![matrix multiplication step 2](images/matrix-multiplication-step-2.jpg)
+
 `Ab+Bd` is the product of the top row of the first matrix by the right column of
 the second matrix.
+
 ![matrix multiplication step 3](images/matrix-multiplication-step-3.jpg)
+
 `Ca+Dc` is the product of the bottom row of the first matrix by the left column
 of the second matrix.
+
 ![matrix multiplication step 4](images/matrix-multiplication-step-4.jpg)
+
 `Cb+Dd` is the product of the bottom row of the first matrix by the right column
 of the second matrix.
 
 ### Determinant of a Matrix
 Given a 2x2 matrix:
+
 ![2x2 matrix](images/2x2-matrix.jpg)
+
 the determinant is a scalar quantity calculated by:
+
 ![2x2 determinant](images/2x2-determinant.jpg)
+
 The determinant of a 2x2 matrix determines the change in area that occurs when
 a polygon is transformed by the matrix.
 
 ### Homogeneous Coordinates
+
 ![Homogeneous Coordinates](images/homogeneous-coordinates.jpg)
+
 - For a point `(x,y)` there exists a homogeneous point `(xt,yt,t)` where t is an
   arbitrary number.
 - It is possible to transform functions such as `f(x,y)` into the form
@@ -95,7 +115,9 @@ a polygon is transformed by the matrix.
   discard the 1, which resolves the problem of creating a translation transform.
 
 Given the homogeneous point `(x,y,1)`:
+
 ![homogeneous point](images/homogeneous-point.jpg)
+
 this expands to:
 ```
 x'=ax+by+e
@@ -106,6 +128,10 @@ and solves the problem of adding a constant.
 
 ### 2D Translation
 Algebraic notation:
+
 ![algebraic 2d translation](images/algebraic-2d-translation.jpg)
+
 Matrix notation:
+
 ![matrix 2d translation](images/matrix-2d-translation.jpg)
+
