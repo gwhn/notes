@@ -1,7 +1,7 @@
 # Notes
 > 2016-12-15
 
-- I have decided to get organized so I can get more done.
+- I decided to get organized so I can get more done.
 
 - This is where I keep my notes. 
 
@@ -25,4 +25,5 @@
 
 - Paragraphs should not contain more than 6 sentences.
 
-- Make searches more effective by using one word consistently over alternates.
+- Make searches more effective by using one word consistently where alternates
+  exist.
