@@ -37,5 +37,19 @@ y'=1.5y
 ```
 - This transform results in a horizontal scaling of 2 and a vertical scaling of
   1.5.
-- *Note* that scaling is relative to the origin.
+- **Note** that scaling is relative to the origin.
 
+### Reflection
+
+- Reversing the sign of the x-coordinate reflects a shape relative to the
+  y-axis.
+```
+x'=-x
+y'=y
+```
+- Reversing the sign of the y-coordinate reflects a shape relative to the
+  x-axis.
+```
+x'=x
+y'=-y
+```
