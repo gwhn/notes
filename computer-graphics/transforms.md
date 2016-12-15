@@ -27,3 +27,15 @@ z'=gx+hy+jz+m
   point `P'(x',y)` 3 units to the right.
 - Similarly, when we apply `y'=y+1` we create a new point `P'(x,y')` displaced
   1 unit vertically.
+
+### Scaling
+
+- Shape scaling is effected by multiplying coordinates.
+```
+x'=2x
+y'=1.5y
+```
+- This transform results in a horizontal scaling of 2 and a vertical scaling of
+  1.5.
+- *Note* that scaling is relative to the origin.
+
