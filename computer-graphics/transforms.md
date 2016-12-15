@@ -22,4 +22,8 @@ z'=gx+hy+jz+m
 
 ### Translation
 
--
+- Change a shape's coordinates => change its geometry.
+- If `P(x,y)` is a vertex on a shape, when we apply `x'=x+3` we create a new
+  point `P'(x',y)` 3 units to the right.
+- Similarly, when we apply `y'=y+1` we create a new point `P'(x,y')` displaced
+  1 unit vertically.
