@@ -82,3 +82,20 @@ of the second matrix.
 [... Cb+Dd]=[A   B  ][... d]
 ```
 
+### Determinant of a Matrix
+
+Given a 2x2 matrix:
+```
+[a b]
+[c d]
+```
+the determinant is a scalar quantity calculated by:
+```
+|a b|=ad-db
+|c d|
+```
+The determinant of a 2x2 matrix determines the change in area that occurs when
+a polygon is transformed by the matrix.
+
+### Homogeneous Coordinates
+![Homogeneous Coordinates](images/homogeneous-coordinates.jpg)
