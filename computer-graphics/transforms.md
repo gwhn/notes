@@ -56,7 +56,6 @@ y'=-y
 ## Matrices
 
 ### Multiplication
-
 `Aa+Bc` is the product of the top row of the first matrix by the left column of
 the second matrix.
 ```
@@ -83,7 +82,6 @@ of the second matrix.
 ```
 
 ### Determinant of a Matrix
-
 Given a 2x2 matrix:
 ```
 [a b]
@@ -113,6 +111,7 @@ a polygon is transformed by the matrix.
   attach 1 to every `(x,y)` pair.
 - When a point `(x,y,1)` is transformed, it emerges as `(x',y',1)` and we
   discard the 1, which resolves the problem of creating a translation transform.
+
 Given the homogeneous point `(x,y,1)`:
 ```
 [x'] [a b e][x]
@@ -126,3 +125,12 @@ y'=cx+dy+f
 1=1
 ```
 and solves the problem of adding a constant.
+
+### 2D Translation
+Algebraic notation:
+```
+x'=x+t~x~
+y'=y+t~y~
+```
+
+
