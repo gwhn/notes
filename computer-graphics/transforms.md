@@ -57,22 +57,26 @@ y'=-y
 
 ### Multiplication
 
-1.
+`Aa+Bc` is the product of the top row of the first matrix by the left column of
+the second matrix.
 ```
 [Aa+Bc ...]=[A   B  ][a ...]
 [...   ...] [... ...][c ...]
 ```
-1.
+`Ab+Bd` is the product of the top row of the first matrix by the right column of
+the second matrix.
 ```
 [... Ab+Bd]=[A   B  ][... b]
 [... ...  ] [... ...][... d]
 ```
-1.
+`Ca+Dc` is the product of the bottom row of the first matrix by the left column
+of the second matrix.
 ```
 [...   ...] [... ...][a ...]
 [Ca+Dc ...]=[C   D  ][c ...]
 ```
-1.
+`Cb+Dd` is the product of the bottom row of the first matrix by the right column
+of the second matrix.
 ```
 [... ...  ] [... ...][... b]
 [... Cb+Dd]=[A   B  ][... d]
