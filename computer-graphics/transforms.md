@@ -56,42 +56,24 @@ y'=-y
 ## Matrices
 
 ### Multiplication
+![matrix multiplication step 1](images/matrix-multiplication-step-1.jpg)
 `Aa+Bc` is the product of the top row of the first matrix by the left column of
 the second matrix.
-```
-[Aa+Bc ...]=[A   B  ][a ...]
-[...   ...] [... ...][c ...]
-```
+![matrix multiplication step 2](images/matrix-multiplication-step-2.jpg)
 `Ab+Bd` is the product of the top row of the first matrix by the right column of
 the second matrix.
-```
-[... Ab+Bd]=[A   B  ][... b]
-[... ...  ] [... ...][... d]
-```
+![matrix multiplication step 3](images/matrix-multiplication-step-3.jpg)
 `Ca+Dc` is the product of the bottom row of the first matrix by the left column
 of the second matrix.
-```
-[...   ...] [... ...][a ...]
-[Ca+Dc ...]=[C   D  ][c ...]
-```
+![matrix multiplication step 4](images/matrix-multiplication-step-4.jpg)
 `Cb+Dd` is the product of the bottom row of the first matrix by the right column
 of the second matrix.
-```
-[... ...  ] [... ...][... b]
-[... Cb+Dd]=[A   B  ][... d]
-```
 
 ### Determinant of a Matrix
 Given a 2x2 matrix:
-```
-[a b]
-[c d]
-```
+![2x2 matrix](images/2x2-matrix.jpg)
 the determinant is a scalar quantity calculated by:
-```
-|a b|=ad-db
-|c d|
-```
+![2x2 determinant](images/2x2-determinant.jpg)
 The determinant of a 2x2 matrix determines the change in area that occurs when
 a polygon is transformed by the matrix.
 
@@ -113,11 +95,7 @@ a polygon is transformed by the matrix.
   discard the 1, which resolves the problem of creating a translation transform.
 
 Given the homogeneous point `(x,y,1)`:
-```
-[x'] [a b e][x]
-[y']=[c d f][y]
-[1 ] [0 0 1][1]
-```
+![homogeneous point](images/homogeneous-point.jpg)
 this expands to:
 ```
 x'=ax+by+e
@@ -128,9 +106,6 @@ and solves the problem of adding a constant.
 
 ### 2D Translation
 Algebraic notation:
-```
-x'=x+t~x~
-y'=y+t~y~
-```
-
-
+![algebraic 2d translation](images/algebraic-2d-translation.jpg)
+Matrix notation:
+![matrix 2d translation](images/matrix-2d-translation.jpg)
