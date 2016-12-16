@@ -177,4 +177,20 @@ To reflect a point about an arbitrary x-axis:
 ![matrix arbitrary x-axis 2d
 reflection](images/matrix-arbitrary-x-axis-2d-reflection.jpg)
 
+### 2D Shearing
+
+![2d shearing](images/2d-shearing.jpg)
+
+- A shape is sheared by leaning at an angle β.
+- The y-coordinates remain unchanged.
+- The x-coordinates are a function of y and tanβ.
+
+Algebraic notation:
+
+![algebraic 2d shearing](images/algebraic-2d-shearing.jpg)
+
+Matrix notation:
+
+![matrix 2d shearing](images/matrix-2d-shearing.jpg)
+
 
