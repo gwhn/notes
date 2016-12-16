@@ -21,7 +21,7 @@ z'=gx+hy+jz+m
 
 ### Translation
 
-![2D Translation](images/2d-translation.jpg)
+![2d translation](images/2d-translation.jpg)
 
 - Change a shape's coordinates => change its geometry.
 - If `P(x,y)` is a vertex on a shape, when we apply `x'=x+3` we create a new
@@ -31,7 +31,7 @@ z'=gx+hy+jz+m
 
 ### Scaling
 
-![2D Scaling](images/2d-scaling.jpg)
+![2d scaling](images/2d-scaling.jpg)
 
 - Shape scaling is effected by multiplying coordinates.
 ```
@@ -44,7 +44,7 @@ y'=1.5y
 
 ### Reflection
 
-![2D Reflection](images/2d-reflection.jpg)
+![2d reflection](images/2d-reflection.jpg)
 
 - Reversing the sign of the x-coordinate reflects a shape relative to the
   y-axis.
@@ -97,7 +97,7 @@ a polygon is transformed by the matrix.
 
 ### Homogeneous Coordinates
 
-![Homogeneous Coordinates](images/homogeneous-coordinates.jpg)
+![homogeneous coordinates](images/homogeneous-coordinates.jpg)
 
 - For a point `(x,y)` there exists a homogeneous point `(xt,yt,t)` where t is an
   arbitrary number.
@@ -135,3 +135,17 @@ Matrix notation:
 
 ![matrix 2d translation](images/matrix-2d-translation.jpg)
 
+### 2D Scaling
+Algebraic notation:
+
+![algebraic 2d scaling](images/algebraic-2d-scaling.jpg)
+
+Matrix notation:
+
+![matrix 2d scaling](images/matrix-2d-scaling.jpg)
+
+- Scaling is relative to the origin.
+- Point `(0,0)` remains unchanged.
+- Points move away from the origin when s~x~>1.
+- Points move towards the origin when s~x~<1.
+- To scale relative to point 
