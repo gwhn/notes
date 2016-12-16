@@ -146,6 +146,12 @@ Matrix notation:
 
 - Scaling is relative to the origin.
 - Point `(0,0)` remains unchanged.
-- Points move away from the origin when s~x~>1.
-- Points move towards the origin when s~x~<1.
-- To scale relative to point 
+- Points move away from the origin when s*x*>1.
+- Points move towards the origin when s*x*<1.
+
+To scale relative to point:
+
+![homogeneous algebraic 2d scaling](images/homogeneous-algebraic-2d-scaling.jpg)
+or as a homogeneoug matrix:
+
+![homogeneous matrix 2d scaling](images/homogeneous-matrix-2d-scaling.jpg)
