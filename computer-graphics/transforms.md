@@ -193,4 +193,34 @@ Matrix notation:
 
 ![matrix 2d shearing](images/matrix-2d-shearing.jpg)
 
+### 2D Rotation
 
+![2d rotation](images/2d-rotation.jpg)
+
+Algebraic notation:
+
+![algebraic 2d rotation](images/algebraic-2d-rotation.jpg)
+
+Matrix notation:
+
+![matrix 2d rotation](images/matrix-2d-rotation.jpg)
+
+The *identity matrix* represents a 360° rotation and has null effect:
+
+![matrix identity 2d rotation](images/matrix-identity-2d-rotation.jpg)
+
+To rotate about an arbitrary point, in algebraic notation:
+
+![algebraic arbitrary point 2d
+rotation](images/algebraic-arbitrary-point-2d-rotation.jpg)
+
+or, in matrix notation:
+
+![matrix arbitrary point 2d
+rotation](images/matrix-arbitrary-point-2d-rotation.jpg)
+
+### Affine Transforms
+
+- Used to derive compound transforms.
+- Parallel lines remain parallel after transformation.
+- No guarantee that angles and lengths are preserved.
