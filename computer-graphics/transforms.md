@@ -146,12 +146,35 @@ Matrix notation:
 
 - Scaling is relative to the origin.
 - Point `(0,0)` remains unchanged.
-- Points move away from the origin when s*x*>1.
-- Points move towards the origin when s*x*<1.
+- Points move away from the origin when scaling factor is greater than 1.
+- Points move towards the origin when scaling factor is less than 1.
 
-To scale relative to point:
+To scale relative to another point:
 
 ![homogeneous algebraic 2d scaling](images/homogeneous-algebraic-2d-scaling.jpg)
-or as a homogeneoug matrix:
+
+or as a homogeneous matrix:
 
 ![homogeneous matrix 2d scaling](images/homogeneous-matrix-2d-scaling.jpg)
+
+### 2D Reflections
+
+To reflect about the y-axis:
+
+![matrix y-axis 2d reflection](images/matrix-y-axis-2d-reflection.jpg)
+
+or about the x-axis:
+
+![matrix x-axis 2d reflection](images/matrix-x-axis-2d-reflection.jpg)
+
+To reflect a point about an arbitrary y-axis:
+
+![matrix arbitrary y-axis 2d
+reflection](images/matrix-arbitrary-y-axis-2d-reflection.jpg)
+
+To reflect a point about an arbitrary x-axis:
+
+![matrix arbitrary x-axis 2d
+reflection](images/matrix-arbitrary-x-axis-2d-reflection.jpg)
+
+
